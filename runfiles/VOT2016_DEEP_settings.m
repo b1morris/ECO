@@ -119,7 +119,7 @@ params.visualization = 0;               % Visualiza tracking and detection score
 params.debug = 0;                       % Do full debug visualization
 
 % GPU
-params.use_gpu = false;                 % Enable GPU or not
+params.use_gpu = true;                 % Enable GPU or not
 params.gpu_id = [];                     % Set the GPU id, or leave empty to use default
 
 % Initialize
